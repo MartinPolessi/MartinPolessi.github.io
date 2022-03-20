@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>crear cuenta  </h1>
+    <fieldset>
+<legend>
+informaci&oacute;n personal
+</legend>
+
+<form> 
+    <br>
+    <label>nombre * </label>  
+<input type="text" name="nombre">
+<label> apellido *</label>
+<input type="text" name="apellido" placeholder="lopez">
+<br>
+<label>direccion de email</label>
+<input type="text" name="ëmail" placeholder="mail@mail.com">
+<br>
+<label>Nro de Documento *</label>
+<input type="text" name="apellido" placeholder="xxxxxxxx">
+<br>
+
+<!--solo numeros-->
+<label>edad </label>
+<input type="number" min="0" max="999">
+<br>
+<label>recibir mails</label>
+<input type="checkbox" name="adh" value="si">
+<br>
+<label >casado</label>
+<span>si</span>
+<input type="radio" name="casado" value="si"> 
+<span>si</span>
+<input type="radio" name="casado" value="no" checked>
+<br>
+<label>casado</label>
+<select>
+
+<option value="1">1</option>
+<option value="2">2</option>
+<option value="3">3</option>
+</select>
+<br>
+<input type="subm" value="ENVIAR">
+</form>
+</fieldset>
+<fieldset>
+<legend>fotm con tabla</legend>
+<form >
+<table>
+    <tr>
+        <td>
+            <label>nombre</label><br>
+            <input type="text" name="nombre" maxlength="100"> 
+        </td>
+        
+        <td>
+            <label> apellido *</label><br>
+            <input type="text" name="apellido" placeholder="lopez">
+        </td>
+    </tr>
+    <tr>
+        <label >direcion de email</label><br>
+        <input type="email" name="ëmail" placeholder="mail@mail.com">
+    </tr>
+    <tr>
+        <td>
+            <label>Nro de Documento *</label>
+<input type="number" name="dni" min="0" max="">
+
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <input type="submit" value="guardar">
+        </td>
+    </tr>
+</table>
+</form>
+</fieldset>
+</body>
+
+
+</html>
