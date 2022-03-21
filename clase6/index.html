@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+<section>
+ <h1>clase 6</h1>
+ <fieldset>
+     <legend>
+         alta de usuario
+     </legend>
+ 
+ <form action="AltaUsario.html" method="post">
+    <input type="file" value="dni-frente" required>
+    <input type="hidden" value="valoroculto" name="campohidden" >
+
+    <input type="url" name="url" required placeholder="ej:htpp:/youtube.com "> 
+    <input type="text" name="nombre" required placeholder="ingrese algo" title="numeros entre 0 y 9"> 
+<input type="text"   placeholder="numeros entre 0 9"  required pattern="[0-9]">
+<br>
+<textarea name="info-extra" cols="30" rows="5"></textarea>
+<br>
+<select name="selectmultiple" multiple>
+    <optgroup label="animales">
+        <option >leon</option>
+        <option >tigre</option>
+    </optgroup>
+    <optgroup label="colores">
+        <option >azul</option>
+        <option >verde</option>
+        <option >rojo</option>
+
+
+    </optgroup>
+</select>
+<br>
+<input list="browser" name="databrowser">
+<datalist id="browser">
+<option >edge</option>
+<option >firefox</option>
+<option >chrome</option>
+
+</datalist>
+    <input type="submit" value="enviar">
+
+
+
+     
+
+ 
+ 
+    </form>
+</fieldset>
+</section>
+
+
+    </main>
+</body>
+</html>
