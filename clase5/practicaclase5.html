@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>
+PAGO
+    </h1>
+    <fieldset>
+        <legend>pagar aqui </legend>
+        <form >
+            <br>
+<label>nombre*</label>
+<input type="text" name="nombre" >
+<label>apellido*</label>
+<input type="text" name="apellido">
+<br>
+<label>mail</label>
+<input type="text" name="mail" placeholder="mail@mail.com">
+<label>numero de doc*</label>
+<input type="text" name="dni" placeholder="xxxxxxxx" >
+<br>
+<label>metodo de pago</label>
+<select>
+    <option value="amex">amex</option>
+    <option value="mastercard">mastercard</option>
+    <option value="visa">visa</option>
+    <option value="galicia">galicia</option>
+
+</select>
+<br>
+<label >tarjeta de credito</label>
+<input type="text" name="dni" placeholder="xxxxxxxxxxxxxxxxx">
+<label >codigo de seguridad</label>
+<input type="number">
+<br>
+<label >recibir Boleta</label>
+<input type="checkbox" name="adh" value="si">
+<br>
+<input type="submit" name="enviar">
+
+
+
+        </form>
+    </fieldset>
+    <br>
+    <fieldset>
+        <legend>info importante</legend>
+        <form >
+            <label >imagen de la tarjeta</label><br>
+            <input type="file" value="tarjeta frente" required >
+            <input type="hidden" name="campohidden" value="valoroculto">
+             <label>video favorito</label>
+
+    <input type="url" name="url" required placeholder="ej:htpp:/youtube.com">
+    <br>
+    <label>su mejor experencia </label><br>
+    <textarea name="experencia" cols="100" rows="10"></textarea>
+    <br>
+    <select name="selecionmultiple" multiple>
+    <optgroup label="jugadores">
+        <option>Messi</option>
+        <option >Cr7</option>
+        <option>Maradona</option>
+    
+    </optgroup>
+</select>
+<br>
+    <input list="equipos" name="equipos">
+    <datalist id="equipos">
+        <option >boca</option>
+        <option >river</option>
+    </datalist>
+    <br>
+<input type="submit" name="Subir">
+        </form>
+    </fieldset>
+</body>
+</html>
