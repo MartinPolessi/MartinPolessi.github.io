@@ -1,0 +1,18 @@
+*{
+
+    background-color: rgb(0, 255, 42);
+}
+
+
+body{
+background-color: aqua;
+
+}
+#idsection {
+    background-color: rgb(128, 0, 60);
+}
+#nav{
+    background-color: yellow;
+}
+.p{background-color: red;
+}
